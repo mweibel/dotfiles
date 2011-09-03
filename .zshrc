@@ -31,3 +31,7 @@ export PATH=/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/
 export YUI_COMPRESSOR=/usr/local/homebrew/Cellar/yuicompressor/2.4.6/libexec/yuicompressor-2.4.6.jar
 
 export LSCOLORS='ExFxCxDxbxegedabagacad'
+
+if [ -f ~/.bashrc ]; then
+	source ~/.bashrc
+fi
