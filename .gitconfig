@@ -1,11 +1,11 @@
 [user]
 	name = Michael Weibel
 	email = michael.weibel@gmail.com
+[color]
+	ui = true
 [alias]
 	st = status
 	co = checkout
 	ci = commit
 	br = branch
 	graph = log --graph --oneline --all
-[color]
-	ui = true
