@@ -6,5 +6,7 @@ set sw=4 " shiftwidth
 set et " expandtab
 set ru
 
+filetype plugin indent on
 
-filetype on
+" pathogen
+call pathogen#infect()
