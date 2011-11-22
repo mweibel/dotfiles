@@ -4,6 +4,8 @@ call pathogen#infect()
 set background=dark
 syntax on
 
+set fileformat=unix
+
 " indenting
 set smartindent
 set autoindent
