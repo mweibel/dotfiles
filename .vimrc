@@ -27,7 +27,8 @@ set backspace=indent,eol,start
 set autoread " if a file has been changed outside of vim and it has not been changed, automatically re-read it
 
 set title
+set statusline+=%{fugitive#statusline()} " add current branch to statusline
 
-map <F2> :NERDTreeToggle<CR> " f2 for toggling nerd tree buffer
+map <F2> :NERDTreeMirrorToggle<CR> " f2 for toggling nerd tree buffer
 
 filetype plugin indent on
