@@ -11,7 +11,6 @@ set smarttab
 
 set tabstop=4
 set shiftwidth=4 " shiftwidth
-set expandtab " expandtab
 
 set ruler "show ruler
 set number " show line numbers
