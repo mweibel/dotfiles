@@ -1,7 +1,7 @@
 " pathogen
 call pathogen#infect()
 
-set background=dark
+" set background=dark
 syntax on
 
 set fileformat=unix
