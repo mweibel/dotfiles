@@ -4,6 +4,9 @@ call pathogen#infect()
 " set background=dark
 syntax on
 
+" show cmd currently typed in
+set showcmd
+
 set fileformat=unix
 
 " indenting
@@ -41,6 +44,9 @@ set statusline+=%{fugitive#statusline()} " add current branch to statusline
 map <F2> :NERDTreeMirrorToggle<CR> " f2 for toggling nerd tree buffer
 
 filetype plugin indent on
+
+" macosx clipboard instead of vim's
+set clipboard=unnamed
 
 " Include user's local vim config if available
 if filereadable(expand("~/.vimrc.local"))
