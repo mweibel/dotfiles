@@ -48,6 +48,11 @@ filetype plugin indent on
 " macosx clipboard instead of vim's
 set clipboard=unnamed
 
+if has("gui_running")
+	autocmd VimResized * wincmd =
+	color eclipse
+endif
+
 " Include user's local vim config if available
 if filereadable(expand("~/.vimrc.local"))
 	source ~/.vimrc.local
