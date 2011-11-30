@@ -56,6 +56,7 @@ if has("gui_running")
 	color eclipse
 endif
 
+" map 1gt, 2gt .. 9gt for tabswitching
 for i in range(1, 9)
 	exec "nnoremap <D-".i."> ".i."gt"
 endfor
