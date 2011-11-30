@@ -56,10 +56,13 @@ if has("gui_running")
 	color eclipse
 endif
 
-" map 1gt, 2gt .. 9gt for tabswitching
-for i in range(1, 9)
-	exec "nnoremap <D-".i."> ".i."gt"
-endfor
+"Delete trailing white space ;)
+func! DeleteTrailingWS()
+	exe "normal mz"
+	%s/\s\+$//ge
+	exe "normal `z"
+endfunc
+autocmd BufWrite *.(php|js) :call DeleteTrailingWS()
 
 " Include user's local vim config if available
 if filereadable(expand("~/.vimrc.local"))
