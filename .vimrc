@@ -40,6 +40,9 @@ set autoread " if a file has been changed outside of vim and it has not been cha
 set laststatus=2
 set title
 set statusline+=%{fugitive#statusline()} " add current branch to statusline
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
 map <F2> :NERDTreeMirrorToggle<CR> " f2 for toggling nerd tree buffer
 
@@ -52,6 +55,10 @@ if has("gui_running")
 	autocmd VimResized * wincmd =
 	color eclipse
 endif
+
+for i in range(1, 9)
+	exec "nnoremap <D-".i."> ".i."gt"
+endfor
 
 " Include user's local vim config if available
 if filereadable(expand("~/.vimrc.local"))
