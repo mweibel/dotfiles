@@ -64,6 +64,8 @@ func! DeleteTrailingWS()
 endfunc
 autocmd BufWrite *.(php|js) :call DeleteTrailingWS()
 
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+
 " Include user's local vim config if available
 if filereadable(expand("~/.vimrc.local"))
 	source ~/.vimrc.local
