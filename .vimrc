@@ -46,7 +46,6 @@ set autoread " if a file has been changed outside of vim and it has not been cha
 
 set laststatus=2
 set title
-set statusline+=%{fugitive#statusline()} " add current branch to statusline
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
