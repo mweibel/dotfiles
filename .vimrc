@@ -33,6 +33,7 @@ endif
 
 set ruler "show ruler
 set number " show line numbers
+" set relativenumber 
 
 "search
 set incsearch "find by type
@@ -131,6 +132,9 @@ endfunction
 " Toggle show linebreaks with ,b
 nmap <leader>b :call ToggleShowBreak()<CR>
 
+" unsaved buffers can be in the background to prevent splitscreens because of
+" that
+set hidden
 
 " Include user's local vim config if available
 if filereadable(expand("~/.vimrc.local"))
