@@ -1,3 +1,3 @@
-[[ -s "/Users/michael/.rvm/scripts/rvm" ]] && source "/Users/michael/.rvm/scripts/rvm"
+[[ -s "~/.rvm/scripts/rvm" ]] && source "~/.rvm/scripts/rvm"
 
-export PATH=$PATH:~/bin:/usr/local/homebrew/bin
+export PATH=$PATH:~/bin
