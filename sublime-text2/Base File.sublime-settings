@@ -10,7 +10,16 @@
 		"E221",
 		"E203",
 		"E261",
-		"E201"
+		"E201",
+		"E302"
 	],
-	"sublimelinter": "load-save"
+	"sublimelinter": "load-save",
+	"Python": {
+		"python": "/usr/bin/env python"
+	},
+	"jshint_options": {
+		"eval": false,
+		"smarttabs": true
+	},
+	"fold_buttons": false
 }
