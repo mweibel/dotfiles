@@ -7,4 +7,14 @@ if [ -f /usr/local/homebrew/share/python/virtualenvwrapper.sh ]; then
 	source /usr/local/homebrew/share/python/virtualenvwrapper.sh
 fi
 
+has_virtualenv() {
+    if [ -e .venv ]; then
+        workon `cat .venv`
+	fi
+}
+venv_cd () {
+    cd "$@" && has_virtualenv
+}
+alias cd="venv_cd"
+
 export PATH=$PATH:~/bin
