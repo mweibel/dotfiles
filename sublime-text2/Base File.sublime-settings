@@ -19,7 +19,13 @@
 	},
 	"jshint_options": {
 		"eval": false,
-		"smarttabs": true
+		"smarttabs": true,
+		"onecase": false,
+		"jquery": true,
+		"laxbreak": false,
+		"white": false
 	},
-	"fold_buttons": false
+	"fold_buttons": false,
+	"sublimelinter_fill_outlines": false,
+	"sublimelinter_gutter_marks": true
 }

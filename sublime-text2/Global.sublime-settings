@@ -1,7 +1,11 @@
 {
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"SublimeRope"
 	],
-	"theme": "Soda Light.sublime-theme"
+	"scroll_past_end": true,
+	"theme": "Soda Light.sublime-theme",
+	"tree_animation_enabled": false
 }
