@@ -30,7 +30,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Applications/TextMate.app/Contents/Resources/
 export YUI_COMPRESSOR=/usr/local/homebrew/Cellar/yuicompressor/2.4.7/libexec/yuicompressor-2.4.7.jar
 export NATURALDOCS_DIR=/usr/local/homebrew/Cellar/naturaldocs/1.52/bin
-export GRAILS_HOME=/usr/local/homebrew/Cellar/grails/2.0.0/libexec
+export NODE_PATH=/usr/local/homebrew/lib/node_modules:$NODE_PATH
 
 export LSCOLORS='ExFxCxDxbxegedabagacad'
 
