@@ -1,0 +1,16 @@
+{
+	"Python":
+	{
+		"python": "/usr/bin/env python"
+	},
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"fold_buttons": false,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"SublimeRope"
+	],
+	"theme": "Soda Light.sublime-theme",
+	"tree_animation_enabled": false
+}

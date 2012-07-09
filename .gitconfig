@@ -9,3 +9,7 @@
 	ci = commit
 	br = branch
 	graph = log --graph --oneline --all
+[core]
+	editor = /usr/bin/vim
+	quotepath = false
+	ignorecase = false
