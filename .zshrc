@@ -22,12 +22,12 @@ DISABLE_AUTO_UPDATE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx ruby brew github rails3 gem rvm django)
+plugins=(git osx ruby brew github rails3 gem rvm django virtualenvwrapper)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Applications/TextMate.app/Contents/Resources/
+export PATH=/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Applications/TextMate.app/Contents/Resources
 export YUI_COMPRESSOR=/usr/local/homebrew/Cellar/yuicompressor/2.4.7/libexec/yuicompressor-2.4.7.jar
 export NATURALDOCS_DIR=/usr/local/homebrew/Cellar/naturaldocs/1.52/bin
 export NODE_PATH=/usr/local/homebrew/lib/node_modules:$NODE_PATH
