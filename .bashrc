@@ -18,3 +18,7 @@ venv_cd () {
 alias cd="venv_cd"
 
 export PATH=$PATH:~/bin
+
+if [ -f ~/.bashrc_local ]; then
+	source ~/.bashrc_local
+fi

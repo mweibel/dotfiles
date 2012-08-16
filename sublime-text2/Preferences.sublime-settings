@@ -12,5 +12,11 @@
 		"SublimeRope"
 	],
 	"theme": "Soda Light.sublime-theme",
-	"tree_animation_enabled": false
+	"tree_animation_enabled": false,
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", 
+		"*.so.dSYM"
+	],
+    "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", 
+    	"*.beam"
+    ]
 }
