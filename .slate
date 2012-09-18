@@ -28,6 +28,8 @@ bind down:ctrl;alt;cmd move 0;${fiftyPercentY} ${fiftyPercentX};${fiftyPercentY}
 # Reset window
 bind .:ctrl;alt;cmd move (screenSizeX*0.4)/2;0 screenSizeX*0.6;screenSizeY*0.7
 
+# Fullscreen window
+bind f:alt;cmd move 0;0 ${hundredPercentX};${hundredPercentY}
 
 # Focus bindings
 bind right:shift;alt focus right
