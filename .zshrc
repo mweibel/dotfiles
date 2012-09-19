@@ -22,7 +22,7 @@ DISABLE_AUTO_UPDATE="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx ruby brew github rails3 gem rvm django virtualenvwrapper)
+plugins=(git osx ruby brew github rails3 gem rvm django virtualenvwrapper zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -33,6 +33,8 @@ export NATURALDOCS_DIR=/usr/local/homebrew/Cellar/naturaldocs/1.52/bin
 export NODE_PATH=/usr/local/homebrew/lib/node_modules:$NODE_PATH
 
 export LSCOLORS='ExFxCxDxbxegedabagacad'
+
+ZSH_HIGHLIGHT_STYLES[path]='fg=white,bold'
 
 if [ -f ~/.bashrc ]; then
 	source ~/.bashrc
