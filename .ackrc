@@ -1,2 +1,4 @@
 --type-set
 scss=.scss
+--type-set
+cfg=.cfg
