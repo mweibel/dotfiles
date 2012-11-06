@@ -4,7 +4,7 @@
 [color]
 	ui = true
 [alias]
-	st = status
+	st = status -sb
 	co = checkout
 	ci = commit
 	br = branch
@@ -13,3 +13,5 @@
 	editor = /usr/bin/vim
 	quotepath = false
 	ignorecase = false
+[push]
+	default = simple
