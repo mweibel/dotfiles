@@ -28,7 +28,7 @@ setopt INTERACTIVE_COMMENTS
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx ruby brew github rails3 gem rvm django virtualenvwrapper zsh-syntax-highlighting git-flow)
+plugins=(git osx ruby brew github rails3 gem rvm django zsh-syntax-highlighting git-flow)
 
 source $ZSH/oh-my-zsh.sh
 

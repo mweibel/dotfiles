@@ -36,15 +36,15 @@
 		"CVS",
 		"*.so.dSYM"
 	],
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage",
 		"SublimeRope"
 	],
+	"scroll_past_end": true,
 	"theme": "Soda Light.sublime-theme",
 	"tree_animation_enabled": false,
-	"highlight_line": true,
-	"trim_trailing_white_space_on_save": true,
-	"scroll_past_end": true
+	"trim_trailing_white_space_on_save": true
 }
