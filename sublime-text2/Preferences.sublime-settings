@@ -3,7 +3,7 @@
 	{
 		"python": "/usr/bin/env python"
 	},
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -41,9 +41,11 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"SublimeRope"
+		"SublimeRope",
+		"Emmet Css Snippets"
 	],
 	"scroll_past_end": true,
+	"soda_classic_tabs": true,
 	"theme": "Soda Light.sublime-theme",
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true

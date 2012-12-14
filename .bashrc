@@ -28,3 +28,5 @@ PATH=/usr/local/homebrew/Cellar/gettext/0.18.1.1/bin:$PATH #gettext
 
 #PROMPT='%{$fg_bold[green]%}%n@%m%{$reset_color%} %{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
