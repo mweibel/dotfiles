@@ -4,6 +4,7 @@
 		"python": "/usr/bin/env python"
 	},
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
+	"dictionary": "Packages/Language - Swiss German/German_de_CH.dic",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -25,7 +26,24 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.beam"
+		"*.beam",
+		"*.bbl",
+		"*.aux",
+		"*.blg",
+		"*.fdb_latexmk",
+		"*.fls",
+		"*.glg",
+		"*.glo",
+		"*.gls",
+		"*.idx",
+		"*.ilg",
+		"*.ind",
+		"*.ist",
+		"*.lof",
+		"*.out",
+		"*.toc",
+		"*.lol",
+		"*.lot"
 	],
 	"fold_buttons": false,
 	"folder_exclude_patterns":
@@ -43,6 +61,10 @@
 		"Vintage",
 		"SublimeRope",
 		"Emmet Css Snippets"
+	],
+	"rulers":
+	[
+		80
 	],
 	"scroll_past_end": true,
 	"soda_classic_tabs": true,
