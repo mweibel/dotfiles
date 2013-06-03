@@ -46,7 +46,10 @@ if [ -f ~/.bashrc ]; then
 	source ~/.bashrc
 fi
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# git flow completion
+if [ -f /usr/local/homebrew/share/zsh/site-functions/git-flow-completion.zsh ]; then
+	source /usr/local/homebrew/share/zsh/site-functions/git-flow-completion.zsh
+fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

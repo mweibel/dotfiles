@@ -1,5 +1,3 @@
-[[ -s "~/.rvm/scripts/rvm" ]] && source "~/.rvm/scripts/rvm"
-
 # python
 export PATH=/usr/local/homebrew/share/python:$PATH
 export WORKON_HOME=$HOME/.virtualenvs
@@ -31,3 +29,7 @@ PATH=/usr/local/homebrew/share/npm/bin:$PATH #npm
 PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+if [ -f ~/.nvm/nvm.sh ]; then
+	source ~/.nvm/nvm.sh
+fi

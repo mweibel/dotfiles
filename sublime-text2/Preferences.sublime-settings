@@ -4,7 +4,7 @@
 		"python": "/usr/bin/env python"
 	},
 	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
-	"dictionary": "Packages/Language - Swiss German/German_de_CH.dic",
+	"dictionary": "Packages/Language - English/en_US.dic",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -43,7 +43,8 @@
 		"*.out",
 		"*.toc",
 		"*.lol",
-		"*.lot"
+		"*.lot",
+		"*.scssc"
 	],
 	"fold_buttons": false,
 	"folder_exclude_patterns":

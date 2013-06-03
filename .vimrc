@@ -136,6 +136,15 @@ nmap <leader>b :call ToggleShowBreak()<CR>
 " that
 set hidden
 
+" relative/absolute number switching
+" from
+" http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
+autocmd FocusLost * :set number
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
+autocmd CursorMoved * :set relativenumber
+
+
 " Include user's local vim config if available
 if filereadable(expand("~/.vimrc.local"))
 	source ~/.vimrc.local

@@ -15,4 +15,4 @@
 	ignorecase = false
 	excludesfile = /Users/wemi/.gitignore
 [push]
-	default = simple
+	default = current
