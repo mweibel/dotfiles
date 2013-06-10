@@ -3,8 +3,8 @@
 	{
 		"python": "/usr/bin/env python"
 	},
-	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
-	"dictionary": "Packages/Language - English/en_US.dic",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
+	"dictionary": "Packages/Language - Swiss German/German_de_CH.dic",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
