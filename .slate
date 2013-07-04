@@ -14,22 +14,22 @@ alias hundredPercentX screenSizeX
 alias hundredPercentY screenSizeY
 
 # Resize to half screens
-bind left:alt;cmd move 0;0 ${fiftyPercentX};${hundredPercentY}
-bind right:alt;cmd move ${fiftyPercentX};0 ${fiftyPercentX};${hundredPercentY}
-bind up:alt;cmd move 0;0 ${hundredPercentX};${fiftyPercentY}
-bind down:alt;cmd move 0;${fiftyPercentY} ${hundredPercentX};${fiftyPercentY}
+bind left:alt;cmd move 0;screenOriginY ${fiftyPercentX};${hundredPercentY}
+bind right:alt;cmd move ${fiftyPercentX};screenOriginY ${fiftyPercentX};${hundredPercentY}
+bind up:alt;cmd move 0;screenOriginY ${hundredPercentX};${fiftyPercentY}
+bind down:alt;cmd move 0;${fiftyPercentY}+screenOriginY ${hundredPercentX};${fiftyPercentY}
 
 # Resize to corners
-bind left:ctrl;alt;cmd move 0;0 ${fiftyPercentX};${fiftyPercentY}
-bind up:ctrl;alt;cmd move ${fiftyPercentX};0 ${fiftyPercentX};${fiftyPercentY}
-bind right:ctrl;alt;cmd move ${fiftyPercentX};${fiftyPercentY} ${fiftyPercentX};${fiftyPercentY}
-bind down:ctrl;alt;cmd move 0;${fiftyPercentY} ${fiftyPercentX};${fiftyPercentY}
+bind left:ctrl;alt;cmd move 0;screenOriginY ${fiftyPercentX};${fiftyPercentY}
+bind up:ctrl;alt;cmd move ${fiftyPercentX};screenOriginY ${fiftyPercentX};${fiftyPercentY}
+bind right:ctrl;alt;cmd move ${fiftyPercentX};${fiftyPercentY}+screenOriginY ${fiftyPercentX};${fiftyPercentY}
+bind down:ctrl;alt;cmd move 0;${fiftyPercentY}+screenOriginY ${fiftyPercentX};${fiftyPercentY}
 
 # Reset window
-bind .:ctrl;alt;cmd move (screenSizeX*0.4)/2;0 screenSizeX*0.6;screenSizeY*0.7
+bind .:ctrl;alt;cmd move (screenSizeX*0.4)/2;screenOriginY screenSizeX*0.6;screenSizeY*0.7
 
 # Fullscreen window
-bind f:alt;cmd move 0;0 ${hundredPercentX};${hundredPercentY}
+bind f:alt;cmd move 0;screenOriginY ${hundredPercentX};${hundredPercentY}
 
 # Focus bindings
 bind right:shift;alt focus right
