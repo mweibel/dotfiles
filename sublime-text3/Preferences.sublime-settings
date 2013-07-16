@@ -3,8 +3,7 @@
 	{
 		"python": "/usr/bin/env python"
 	},
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
-	"dictionary": "Packages/Language - Swiss German/German_de_CH.dic",
+	"color_scheme": "Packages/User/Solarized (Light).tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -60,9 +59,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"SublimeRope",
-		"Emmet Css Snippets"
+		"Vintage"
 	],
 	"rulers":
 	[
@@ -70,7 +67,7 @@
 	],
 	"scroll_past_end": true,
 	"soda_classic_tabs": true,
-	"theme": "Soda Light.sublime-theme",
+	"theme": "Soda Light 3.sublime-theme",
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true
 }
