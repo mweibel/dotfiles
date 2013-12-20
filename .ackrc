@@ -6,3 +6,4 @@ cfg=.cfg
 jmx=.jmx
 --type-set
 hbs=.hbs
+--ignore-dir=.idea

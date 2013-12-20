@@ -74,5 +74,8 @@
 	"scroll_past_end": true,
 	"soda_classic_tabs": true,
 	"tree_animation_enabled": false,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"enable_tab_scrolling": false,
+	"show_encoding": true,
+	"show_line_endings": true
 }

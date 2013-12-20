@@ -14,5 +14,6 @@
 	quotepath = false
 	ignorecase = false
 	excludesfile = /Users/wemi/.gitignore
+	trustctime = false
 [push]
 	default = current
