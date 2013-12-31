@@ -4,6 +4,7 @@
 		"python": "/usr/bin/env python"
 	},
 	"color_scheme": "Packages/User/Solarized (light).tmTheme",
+	"enable_tab_scrolling": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -59,12 +60,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"ActionScript",
+		"Vintage",
 		"SideBarEnhancements",
 		"LaTeX",
-		"Theme - Soda",
 		"Clojure",
+		"Theme - Soda",
 		"ASP"
 	],
 	"rulers":
@@ -72,10 +73,9 @@
 		80
 	],
 	"scroll_past_end": true,
+	"show_encoding": true,
+	"show_line_endings": true,
 	"soda_classic_tabs": true,
 	"tree_animation_enabled": false,
-	"trim_trailing_white_space_on_save": true,
-	"enable_tab_scrolling": false,
-	"show_encoding": true,
-	"show_line_endings": true
+	"trim_trailing_white_space_on_save": true
 }
