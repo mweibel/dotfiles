@@ -21,7 +21,7 @@ if [ -f ~/.bashrc_local ]; then
 	source ~/.bashrc_local
 fi
 
-PATH=/usr/local/homebrew/Cellar/gettext/0.18.1.1/bin:$PATH #gettext 
+PATH=/usr/local/homebrew/opt/gettext/bin:$PATH #gettext 
 
 PATH=/usr/local/homebrew/share/npm/bin:$PATH #npm
 
