@@ -24,6 +24,7 @@ fi
 PATH=/usr/local/homebrew/opt/gettext/bin:$PATH #gettext 
 
 PATH=/usr/local/homebrew/share/npm/bin:$PATH #npm
+NODE_PATH=$NODE_PATH:/usr/local/homebrew/share/npm/lib/node_modules
 
 #PROMPT='%{$fg_bold[green]%}%n@%m%{$reset_color%} %{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
