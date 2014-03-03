@@ -26,7 +26,6 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.beam",
 		"*.bbl",
 		"*.aux",
 		"*.blg",
@@ -60,11 +59,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Clojure",
+		"ASP",
 		"LaTeX",
 		"ActionScript",
-		"ASP",
-		"Clojure"
+		"Vintage",
+		"Emmet"
 	],
 	"rulers":
 	[
