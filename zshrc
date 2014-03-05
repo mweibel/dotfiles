@@ -5,7 +5,6 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="geoffgarside"
 ZSH_THEME="lukerandall"
 
 # Set to this to use case-sensitive completion
@@ -28,16 +27,11 @@ setopt histignoredups
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx brew zsh-syntax-highlighting git-flow)
+plugins=(git osx brew zsh-syntax-highlighting git-flow npm)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/Applications/TextMate.app/Contents/Resources
-export YUI_COMPRESSOR=/usr/local/homebrew/Cellar/yuicompressor/2.4.8/libexec/yuicompressor-2.4.8.jar
-export NATURALDOCS_DIR=/usr/local/homebrew/Cellar/naturaldocs/1.52/bin
-export NODE_PATH=/usr/local/homebrew/lib/node_modules:$NODE_PATH
-
 export LSCOLORS='ExFxCxDxbxegedabagacad'
 
 ZSH_HIGHLIGHT_STYLES[path]='fg=white,bold'
