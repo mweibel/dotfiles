@@ -8,6 +8,7 @@
 	co = checkout
 	ci = commit
 	br = branch
+	l = log --graph --full-history --pretty=format:'%C(red)%h%Creset - %C(yellow)%s %C(green)(%an, %cr)%C(white)%d%C(reset)' --abbrev-commit --date=relative
 	graph = log --graph --oneline --all
 [core]
 	editor = /usr/bin/vim
