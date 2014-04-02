@@ -1,3 +1,5 @@
+# PATH changes
+export PATH=/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 # python
 export PATH=/usr/local/homebrew/share/python:$PATH
 export WORKON_HOME=$HOME/.virtualenvs
@@ -21,12 +23,11 @@ if [ -f ~/.bashrc_local ]; then
 	source ~/.bashrc_local
 fi
 
-PATH=/usr/local/homebrew/opt/gettext/bin:$PATH #gettext 
+PATH=/usr/local/homebrew/opt/gettext/bin:$PATH #gettext
 
 PATH=/usr/local/homebrew/share/npm/bin:$PATH #npm
 NODE_PATH=$NODE_PATH:/usr/local/homebrew/share/npm/lib/node_modules
 
-#PROMPT='%{$fg_bold[green]%}%n@%m%{$reset_color%} %{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

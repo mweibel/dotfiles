@@ -14,7 +14,7 @@
 	editor = /usr/bin/vim
 	quotepath = false
 	ignorecase = false
-	excludesfile = /Users/wemi/.gitignore
+	excludesfile = ~/.gitignore
 	trustctime = false
 [push]
 	default = current

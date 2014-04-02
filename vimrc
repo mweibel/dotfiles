@@ -51,8 +51,6 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-map <F2> :NERDTreeMirrorToggle<CR> " f2 for toggling nerd tree buffer
-
 filetype plugin indent on
 
 " macosx clipboard instead of vim's
@@ -79,17 +77,6 @@ highlight StatusLineNC ctermfg=DarkGrey ctermbg=Black
 au InsertEnter * highlight StatusLine ctermfg=Blue ctermbg=Black
 au InsertLeave * highlight StatusLine ctermfg=Grey ctermbg=Black
 
-" MiniBufExplorer
-function! MiniBufExplorer()
-	if bufname("%") == '-MiniBufExplorer-'
-		exec "normal \<cr>"
-	else
-		MiniBufExplorer
-	endif
-endfunction
-
-" 167 = §
-nmap <Char-167> :call MiniBufExplorer()<CR>
 " Shift-Tab buffer previous
 nmap <S-Tab> :bp<CR>
 " Tab buffer next
@@ -97,16 +84,6 @@ nmap <Tab> :bn<CR>
 
 nnoremap <C-Y> i
 imap <C-Y> <Esc>
-
-" Command-T inactive atm
-" function! CommandT()
-" 	if bufname("%") == '-MiniBufExplorer-'
-" 		exec "normal! \<c-w>\<c-w>"
-" 	endif
-" 	CommandT
-" endfunction
-"
-" map <C-X> :call CommandT()<CR>
 
 " Invisibles
 highlight NonText ctermfg=DarkGrey

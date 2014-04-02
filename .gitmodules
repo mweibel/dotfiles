@@ -1,42 +1,27 @@
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/nerdtree-tabs"]
-	path = .vim/bundle/nerdtree-tabs
-	url = https://github.com/jistr/vim-nerdtree-tabs
-[submodule ".vim/bundle/command-t"]
-	path = .vim/bundle/command-t
-	url = git://git.wincent.com/command-t.git
-[submodule ".vim/bundle/Color-Sampler-Pack"]
-	path = .vim/bundle/Color-Sampler-Pack
+[submodule "vim/bundle/Color-Sampler-Pack"]
+	path = vim/bundle/Color-Sampler-Pack
 	url = git://github.com/vim-scripts/Color-Sampler-Pack.git
-[submodule ".vim/bundle/nerdcommenter"]
-	path = .vim/bundle/nerdcommenter
-	url = git://github.com/ddollar/nerdcommenter.git
-[submodule ".vim/bundle/vim-javascript"]
-	path = .vim/bundle/vim-javascript
+[submodule "vim/bundle/vim-javascript"]
+	path = vim/bundle/vim-javascript
 	url = git://github.com/pangloss/vim-javascript.git
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule ".vim/bundle/PIV"]
-	path = .vim/bundle/PIV
+[submodule "vim/bundle/PIV"]
+	path = vim/bundle/PIV
 	url = git://github.com/spf13/PIV.git
-[submodule ".vim/bundle/scss-syntax"]
-	path = .vim/bundle/scss-syntax
+[submodule "vim/bundle/scss-syntax"]
+	path = vim/bundle/scss-syntax
 	url = git://github.com/cakebaker/scss-syntax.vim.git
-[submodule ".vim/bundle/ack.vim"]
-	path = .vim/bundle/ack.vim
+[submodule "vim/bundle/ack.vim"]
+	path = vim/bundle/ack.vim
 	url = git://github.com/mileszs/ack.vim.git
-[submodule ".vim/bundle/minibufexpl.vim"]
-	path = .vim/bundle/minibufexpl.vim
-	url = git://github.com/fholgado/minibufexpl.vim.git
-[submodule ".vim/bundle/snipmate"]
-	path = .vim/bundle/snipmate
+[submodule "vim/bundle/snipmate"]
+	path = vim/bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
-[submodule ".vim/bundle/supertab"]
-	path = .vim/bundle/supertab
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
 	url = git://github.com/ervandew/supertab.git
-[submodule ".vim/bundle/vim-powerline"]
-	path = .vim/bundle/vim-powerline
+[submodule "vim/bundle/vim-powerline"]
+	path = vim/bundle/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline.git

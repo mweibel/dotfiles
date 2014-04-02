@@ -26,7 +26,6 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.beam",
 		"*.bbl",
 		"*.aux",
 		"*.blg",
