@@ -30,6 +30,8 @@ NODE_PATH=$NODE_PATH:/usr/local/homebrew/share/npm/lib/node_modules
 
 PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 
+export HOMEBREW_EDITOR=`/usr/bin/which subl`
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 if [ -f ~/.nvm/nvm.sh ]; then
