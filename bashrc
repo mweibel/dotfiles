@@ -1,5 +1,5 @@
 # PATH changes
-export PATH=/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+export PATH=~/bin/erlbrew.d:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 # python
 export PATH=/usr/local/homebrew/share/python:$PATH
 export WORKON_HOME=$HOME/.virtualenvs
