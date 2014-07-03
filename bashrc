@@ -1,5 +1,5 @@
 # PATH changes
-export PATH=~/bin/erlbrew.d:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+export PATH=~/bin/erlbrew.d:~/.exenv/bin:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 # python
 export PATH=/usr/local/homebrew/share/python:$PATH
 export WORKON_HOME=$HOME/.virtualenvs
@@ -37,3 +37,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if [ -f ~/.nvm/nvm.sh ]; then
 	source ~/.nvm/nvm.sh
 fi
+
+if which exenv > /dev/null; then eval "$(exenv init -)"; fi
