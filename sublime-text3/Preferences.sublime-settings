@@ -58,11 +58,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"ASP",
 		"LaTeX",
 		"ActionScript",
-		"Vintage",
-		"ASP",
-		"Clojure"
+		"Clojure",
+		"Vintage"
 	],
 	"rulers":
 	[
