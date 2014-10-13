@@ -3,7 +3,7 @@
 	{
 		"python": "/usr/bin/env python"
 	},
-	"color_scheme": "Packages/User/Solarized (Light).tmTheme",
+	"color_scheme": "Packages/User/Solarized (Light) (SL).tmTheme",
 	"enable_tab_scrolling": false,
 	"file_exclude_patterns":
 	[
@@ -62,7 +62,8 @@
 		"LaTeX",
 		"ActionScript",
 		"Clojure",
-		"Vintage"
+		"Vintage",
+		"LaTeX"
 	],
 	"rulers":
 	[
@@ -73,7 +74,7 @@
 	"show_line_endings": true,
 	"show_tab_close_buttons": false,
 	"soda_classic_tabs": true,
-	"soda_folder_icons": true,
+	"soda_folder_icons": false,
 	"theme": "Soda Light 3.sublime-theme",
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true
