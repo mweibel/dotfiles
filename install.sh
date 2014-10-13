@@ -6,7 +6,7 @@
 echo "Starting"
 
 # install dotfiles
-for symlink in ackrc bashrc gitconfig slate vimrc zshrc
+for symlink in ackrc bashrc gitconfig slate vimrc zshrc merge-po-files
 do
 	echo "Linking $symlink"
 	rm ~/.$symlink
