@@ -33,7 +33,7 @@ endif
 
 set ruler "show ruler
 set number " show line numbers
-" set relativenumber 
+" set relativenumber
 
 "search
 set incsearch "find by type

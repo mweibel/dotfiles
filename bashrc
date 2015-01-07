@@ -41,3 +41,5 @@ if [ -f ~/.nvm/nvm.sh ]; then
 fi
 
 if which exenv > /dev/null; then eval "$(exenv init -)"; fi
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

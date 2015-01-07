@@ -3,7 +3,7 @@
 	{
 		"python": "/usr/bin/env python"
 	},
-	"color_scheme": "Packages/User/Solarized (Light) (SL).tmTheme",
+	"color_scheme": "Packages/User/Solarized (light).tmTheme",
 	"enable_tab_scrolling": false,
 	"file_exclude_patterns":
 	[
@@ -58,9 +58,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"ASP",
-		"LaTeX",
 		"ActionScript",
+		"ASP",
 		"Clojure",
 		"Vintage",
 		"LaTeX"

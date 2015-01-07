@@ -34,7 +34,7 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export LSCOLORS='ExFxCxDxbxegedabagacad'
 
-ZSH_HIGHLIGHT_STYLES[path]='fg=white,bold'
+#ZSH_HIGHLIGHT_STYLES[path]='fg=white,bold'
 
 if [ -f ~/.bashrc ]; then
 	source ~/.bashrc

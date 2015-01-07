@@ -5,8 +5,11 @@
 
 echo "Starting"
 
+# update gitmodules
+git submodule update --init
+
 # install dotfiles
-for symlink in ackrc bashrc gitconfig slate vimrc zshrc merge-po-files
+for symlink in ackrc bashrc gitconfig gitignore slate vimrc zshrc merge-po-files vim
 do
 	echo "Linking $symlink"
 	rm ~/.$symlink
