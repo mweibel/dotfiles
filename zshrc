@@ -47,3 +47,9 @@ fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# added by travis gem
+[ -f /Users/michael/.travis/travis.sh ] && source /Users/michael/.travis/travis.sh
+
+PERL_MB_OPT="--install_base \"/Users/michael/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/Users/michael/perl5"; export PERL_MM_OPT;

@@ -25,6 +25,7 @@ fi
 
 PATH=/usr/local/homebrew/opt/gettext/bin:$PATH #gettext
 
+PATH=$PATH:/usr/local/homebrew/bin #npm
 NODE_PATH=$NODE_PATH:/usr/local/homebrew/lib/node_modules
 
 PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
@@ -43,3 +44,6 @@ fi
 if which exenv > /dev/null; then eval "$(exenv init -)"; fi
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# added by travis gem
+[ -f /Users/michael/.travis/travis.sh ] && source /Users/michael/.travis/travis.sh

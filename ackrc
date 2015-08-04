@@ -4,4 +4,7 @@ scss=.scss
 --type-set
 cfg=.cfg
 
+--type-set
+ex=.ex
+
 --ignore-dir=.idea

@@ -17,7 +17,7 @@
 	excludesfile = ~/.gitignore
 	trustctime = false
 [push]
-	default = simple
+	default = current
 [merge]
 	tool = opendiff
 [merge "merge-po-files"]
@@ -26,6 +26,5 @@
 	recursive = binary
 [diff "po"]
 	textconv=msgcat --no-location --no-wrap --sort-output
-
 [credential]
 	helper = osxkeychain
