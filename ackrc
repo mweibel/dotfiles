@@ -8,3 +8,21 @@ cfg=.cfg
 ex=.ex
 
 --ignore-dir=.idea
+
+--type-set
+erl=.erl
+
+--type-set
+hrl=.hrl
+
+--type-set
+config=.config
+
+--type-set
+conf=.conf
+
+--type-set
+h=.h
+
+--type-set
+m=.m
