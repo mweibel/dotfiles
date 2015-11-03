@@ -1,23 +1,13 @@
 # PATH changes
 export PATH=~/bin/erlbrew.d:~/.exenv/bin:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 # python
-export PATH=/usr/local/homebrew/share/python:$PATH
 export WORKON_HOME=$HOME/.virtualenvs
 if [ -f /usr/local/homebrew/bin/virtualenvwrapper_lazy.sh ]; then
 	source /usr/local/homebrew/bin/virtualenvwrapper_lazy.sh
 fi
+export PIP_REQUIRE_VIRTUALENV=true
 
-has_virtualenv() {
-    if [ -e .venv ]; then
-        workon `cat .venv`
-	fi
-}
-venv_cd () {
-    cd "$@" && has_virtualenv
-}
-alias cd="venv_cd"
-
-export PATH=$PATH:~/bin
+export PATH=$PATH:~/.bin
 
 if [ -f ~/.bashrc_local ]; then
 	source ~/.bashrc_local
@@ -47,3 +37,6 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # added by travis gem
 [ -f /Users/michael/.travis/travis.sh ] && source /Users/michael/.travis/travis.sh
+
+# PHP
+export PATH=/usr/local/php5/bin:$PATH

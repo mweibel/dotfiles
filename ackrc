@@ -7,6 +7,15 @@ cfg=.cfg
 --type-set
 ex=.ex
 
+--type-set
+exs=.exs
+
+--type-set
+app=.app
+
+--type-set
+jsx=.jsx
+
 --ignore-dir=.idea
 
 --type-set
