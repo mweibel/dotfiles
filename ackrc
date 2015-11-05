@@ -35,3 +35,6 @@ h=.h
 
 --type-set
 m=.m
+
+--type-set
+yml=.yml
