@@ -3,7 +3,7 @@
 	{
 		"python": "/usr/bin/env python"
 	},
-	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"enable_tab_scrolling": false,
 	"file_exclude_patterns":
 	[

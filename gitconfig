@@ -1,6 +1,7 @@
 [user]
 	name = Michael Weibel
 	email = michael.weibel@gmail.com
+	signingkey = 10D81860
 [color]
 	ui = true
 [alias]
@@ -28,3 +29,5 @@
 	textconv=msgcat --no-location --no-wrap --sort-output
 [credential]
 	helper = osxkeychain
+[commit]
+	gpgsign = true
