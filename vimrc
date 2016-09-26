@@ -15,10 +15,9 @@ set fileformat=unix
 set smartindent
 set autoindent
 set smarttab
-set noexpandtab " don't insert spaces for tabs
 
-set tabstop=4
-set shiftwidth=4 " shiftwidth
+set tabstop=2
+set shiftwidth=2 " shiftwidth
 
 " no backups, swapfiles
 set nobackup

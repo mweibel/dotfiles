@@ -27,7 +27,7 @@ setopt histignoredups
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx brew zsh-syntax-highlighting git-flow npm vagrant colored-man-pages)
+plugins=(git osx brew zsh-syntax-highlighting git-flow npm vagrant colored-man-pages kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -44,6 +44,3 @@ fi
 if [ -f /usr/local/homebrew/share/zsh/site-functions/git-flow-completion.zsh ]; then
 	source /usr/local/homebrew/share/zsh/site-functions/git-flow-completion.zsh
 fi
-
-PERL_MB_OPT="--install_base \"/Users/michael/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/Users/michael/perl5"; export PERL_MM_OPT;
