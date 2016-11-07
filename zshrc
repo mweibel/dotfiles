@@ -27,7 +27,7 @@ setopt histignoredups
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx brew zsh-syntax-highlighting git-flow npm vagrant colored-man-pages kubectl)
+plugins=(git osx brew zsh-syntax-highlighting npm vagrant colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -38,9 +38,4 @@ export LSCOLORS='ExFxCxDxbxegedabagacad'
 
 if [ -f ~/.bashrc ]; then
 	source ~/.bashrc
-fi
-
-# git flow completion
-if [ -f /usr/local/homebrew/share/zsh/site-functions/git-flow-completion.zsh ]; then
-	source /usr/local/homebrew/share/zsh/site-functions/git-flow-completion.zsh
 fi
