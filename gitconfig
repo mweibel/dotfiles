@@ -1,7 +1,7 @@
 [user]
 	name = Michael Weibel
-	email = michael.weibel@gmail.com
-	signingkey = 10D81860
+	email = michael.weibel@liip.ch
+	signingkey = A800D492
 [color]
 	ui = true
 [alias]
@@ -32,3 +32,5 @@
 	helper = osxkeychain
 [commit]
 	gpgsign = true
+[url "git@git.intern.migros.net:"]
+	insteadOf = https://git.intern.migros.net/

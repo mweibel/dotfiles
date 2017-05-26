@@ -2,6 +2,11 @@
 export PATH=~/bin/erlbrew.d:~/.exenv/bin:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
 # python
 export WORKON_HOME=$HOME/.virtualenvs
+export EDITOR=/usr/bin/vim
+
+if [ -f /usr/local/bin/virtualenvwrapper_lazy.sh ]; then
+	source /usr/local/bin/virtualenvwrapper_lazy.sh
+fi
 if [ -f /usr/local/homebrew/bin/virtualenvwrapper_lazy.sh ]; then
 	source /usr/local/homebrew/bin/virtualenvwrapper_lazy.sh
 fi
@@ -23,10 +28,6 @@ export HOMEBREW_EDITOR=`/usr/bin/which subl`
 PATH="$HOME/.erlenv/bin:$PATH"
 if which erlenv > /dev/null; then eval "$(erlenv init -)"; fi
 
-if [ -f ~/.nvm/nvm.sh ]; then
-	source ~/.nvm/nvm.sh
-fi
-
 if which exenv > /dev/null; then eval "$(exenv init -)"; fi
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
@@ -37,3 +38,6 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # PHP
 export PATH=/usr/local/php5/bin:$PATH
+
+# Remove local branches
+alias git-rm-local-branches='git remote prune origin && git branch -d $(git branch --merged)'

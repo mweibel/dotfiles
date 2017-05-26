@@ -3,3 +3,6 @@
 *.pow
 *.paw
 .vscode
+.ackrc
+*-soapui-*.xml
+.DS_Store

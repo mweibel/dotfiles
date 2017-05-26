@@ -31,6 +31,9 @@ config=.config
 conf=.conf
 
 --type-set
+log=.log
+
+--type-set
 h=.h
 
 --type-set
@@ -38,3 +41,9 @@ m=.m
 
 --type-set
 yml=.yml
+
+--type-set
+vcl=.vcl
+
+--type-set
+md=.md

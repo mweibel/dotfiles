@@ -66,6 +66,7 @@
 		"Markdown",
 		"Vintage"
 	],
+	"match_brackets": false,
 	"rulers":
 	[
 		80
@@ -76,6 +77,7 @@
 	"show_tab_close_buttons": false,
 	"soda_classic_tabs": true,
 	"soda_folder_icons": false,
+	"tab_size": 2,
 	"theme": "Soda Light 3.sublime-theme",
 	"tree_animation_enabled": false,
 	"trim_trailing_white_space_on_save": true,
