@@ -6,3 +6,5 @@
 .ackrc
 *-soapui-*.xml
 .DS_Store
+.envrc
+.direnv
