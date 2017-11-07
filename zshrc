@@ -40,12 +40,4 @@ if [ -f ~/.bashrc ]; then
 	source ~/.bashrc
 fi
 
-# git flow completion
-if [ -f /usr/local/homebrew/share/zsh/site-functions/git-flow-completion.zsh ]; then
-	source /usr/local/homebrew/share/zsh/site-functions/git-flow-completion.zsh
-fi
-export NVM_DIR="/Users/michael/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
