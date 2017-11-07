@@ -1,10 +1,8 @@
 # PATH changes
-export PATH=~/.bin:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH
+export PATH=~/.bin:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:$PATH
 # EDITOR: vim
 export EDITOR=/usr/bin/vim
 export HOMEBREW_EDITOR=`/usr/bin/which subl`
-
-export PATH=$PATH:~/.bin
 
 if [ -f ~/.bashrc_local ]; then
 	source ~/.bashrc_local
