@@ -21,9 +21,10 @@ DISABLE_AUTO_UPDATE="true"
 
 # Don't keep duplicate entries (same command twice in a row) in history file
 setopt histignoredups
+
 #
 # # Allow comments in interactive sessions, a great way to save a line for later
-#setopt INTERACTIVE_COMMENTS
+setopt INTERACTIVE_COMMENTS
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
