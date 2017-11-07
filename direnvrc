@@ -1,0 +1,4 @@
+# direnv customizations
+
+export NODE_VERSIONS=~/.nvm/versions/node
+export NODE_VERSION_PREFIX=v
