@@ -16,3 +16,5 @@ install node
 install wget
 
 install vim --override-system-vi
+
+install direnv
