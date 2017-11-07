@@ -13,6 +13,7 @@
 	graph = log --graph --oneline --all
 	please = push --force-with-lease
 	recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"
+	rm-local-branches = !git remote prune origin && git branch -d $(git branch --merged |grep -v master)
 [core]
 	editor = /usr/bin/vim
 	quotepath = false
@@ -24,7 +25,7 @@
 [merge]
 	tool = opendiff
 [merge "merge-po-files"]
-    name = merge po-files driver
+	name = merge po-files driver
 	driver = ~/.merge-po-files %A %O %B
 	recursive = binary
 [diff "po"]
@@ -33,5 +34,3 @@
 	helper = osxkeychain
 [commit]
 	gpgsign = true
-[url "git@git.intern.migros.net:"]
-	insteadOf = https://git.intern.migros.net/
