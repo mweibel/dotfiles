@@ -34,3 +34,5 @@
 	helper = osxkeychain
 [commit]
 	gpgsign = true
+[fetch]
+	prune = true
