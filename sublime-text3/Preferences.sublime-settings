@@ -79,7 +79,7 @@
 	"soda_folder_icons": false,
 	"tab_size": 2,
 	"theme": "Soda Light 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
-	"trim_trailing_white_space_on_save": true,
-	"translate_tabs_to_spaces": true
+	"trim_trailing_white_space_on_save": true
 }

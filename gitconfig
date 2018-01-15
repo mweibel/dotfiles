@@ -20,6 +20,7 @@
 	ignorecase = false
 	excludesfile = ~/.gitignore
 	trustctime = false
+	pager = `brew --prefix`/share/git-core/contrib/diff-highlight/diff-highlight | less -IRX
 [push]
 	default = current
 [merge]
