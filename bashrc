@@ -1,8 +1,13 @@
+export LC_ALL=en_US.UTF-8
+
 # PATH changes
 export PATH=~/.bin:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:$PATH
 # EDITOR: vim
 export EDITOR=/usr/bin/vim
 export HOMEBREW_EDITOR=`/usr/bin/which subl`
+
+GPG_TTY=$(tty)
+export GPG_TTY
 
 if [ -f ~/.bashrc_local ]; then
 	source ~/.bashrc_local

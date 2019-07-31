@@ -28,7 +28,7 @@ setopt INTERACTIVE_COMMENTS
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx zsh-syntax-highlighting vagrant colored-man-pages)
+plugins=(git osx colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
 

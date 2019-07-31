@@ -1,20 +1,17 @@
-install git
+cask "java" unless system "/usr/libexec/java_home --failfast"
 
-install ack
+brew "git"
 
-install erlang
-install elixir
+brew "ack"
 
-install git-flow
+brew "git-flow"
 
-install prosody
+brew "node"
 
-install rbenv
+brew "wget"
 
-install node
+brew "direnv"
 
-install wget
+brew "gpg"
 
-install vim --override-system-vi
-
-install direnv
+cask "keybase"
