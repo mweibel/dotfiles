@@ -19,6 +19,9 @@ do
 	ln -s $PWD/$symlink ~/.$symlink
 done
 
+rm ~/.gnupg/gpg.conf
+ln -s $PWD/gpg.conf ~/.gnupg/gpg.conf
+
 # install homebrew packages
 echo "Installing packages"
 brew bundle

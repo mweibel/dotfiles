@@ -29,3 +29,5 @@ cask "visual-studio-code"
 cask "intellij-idea"
 
 cask "dropbox"
+
+cask "gpg-suite"
