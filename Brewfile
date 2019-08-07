@@ -14,4 +14,18 @@ brew "direnv"
 
 brew "gpg"
 
+brew "diff-highlight"
+
+cask "spectacle"
+
 cask "keybase"
+
+cask "iterm2"
+
+cask "sublime-text"
+
+cask "visual-studio-code"
+
+cask "intellij-idea"
+
+cask "dropbox"

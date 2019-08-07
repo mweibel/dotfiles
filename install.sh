@@ -8,6 +8,9 @@ echo "Starting"
 # update gitmodules
 git submodule update --init
 
+# install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
 # install dotfiles
 for symlink in ackrc bashrc gitconfig gitignore slate vimrc zshrc merge-po-files vim direnvrc
 do

@@ -1,18 +1,2 @@
 {
-	"sublimelinter_fill_outlines": false,
-	"sublimelinter_gutter_marks": true,
-	"pep8_ignore":
-	[
-		"E501",
-		"E303",
-		"W191",
-		"E301",
-		"E231",
-		"E221",
-		"E203",
-		"E261",
-		"E201",
-		"E302"
-	],
-	"sublimelinter": "load-save"
 }
