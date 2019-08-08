@@ -1,6 +1,5 @@
 [user]
 	name = Michael Weibel
-	signingkey = CA82C7E841477082
 	useConfigOnly = true
 [color]
 	ui = true
@@ -37,3 +36,5 @@
 	gpgsign = true
 [fetch]
 	prune = true
+[include]
+	path = ~/.gitconfig.local
