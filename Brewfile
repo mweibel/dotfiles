@@ -31,3 +31,5 @@ cask "intellij-idea"
 cask "dropbox"
 
 cask "gpg-suite"
+
+cask "docker"
