@@ -22,6 +22,7 @@ cask "intellij-idea"
 cask "dropbox"
 cask "gpg-suite"
 cask "docker"
+cask "spotify"
 
 # Quick Look plugins
 cask 'qlcolorcode'
