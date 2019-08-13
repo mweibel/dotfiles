@@ -4,13 +4,14 @@
 cask "java" unless system "/usr/libexec/java_home --failfast"
 
 brew "git"
-brew "ack"
+brew "ag"
 brew "git-flow"
 brew "node"
 brew "wget"
 brew "direnv"
 brew "gpg"
 brew "diff-highlight"
+brew "go"
 
 # Apps
 cask "spectacle"

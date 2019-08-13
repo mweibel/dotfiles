@@ -6,6 +6,8 @@ export PATH=~/.bin:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:$PATH
 export EDITOR=/usr/bin/vim
 export HOMEBREW_EDITOR=`/usr/bin/which subl`
 
+export GOROOT=`brew --prefix go`/libexec
+
 GPG_TTY=$(tty)
 export GPG_TTY
 
