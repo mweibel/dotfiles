@@ -28,7 +28,7 @@ setopt INTERACTIVE_COMMENTS
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx colored-man-pages)
+plugins=(git osx colored-man-pages kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -44,3 +44,4 @@ fi
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 eval "$(direnv hook zsh)"
+fpath+=${ZDOTDIR:-~}/.zsh_functions
