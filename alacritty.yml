@@ -29,7 +29,7 @@ window:
 
   # Window decorations
   # Setting this to false will result in window without borders and title bar.
-  # decorations: none
+  decorations: none
 
 scrolling:
   # How many lines of scrollback to keep,
@@ -313,7 +313,7 @@ key_bindings:
   - { key: C,        mods: Command,       action: Copy                         }
   - { key: Paste,                         action: Paste                        }
   - { key: Copy,                          action: Copy                         }
-  - { key: H,        mods: Command,       action: Hide                         }
+  #- { key: H,        mods: Command,       action: Hide                         }
   - { key: Q,        mods: Command,       action: Quit                         }
   - { key: Home,                          chars: "\x1bOH",   mode: AppCursor   }
   - { key: Home,                          chars: "\x1b[H",   mode: ~AppCursor  }
@@ -416,8 +416,19 @@ key_bindings:
   - { key: F11,      mods: Command,       chars: "\x1b[23;3~"                  }
   - { key: F12,      mods: Command,       chars: "\x1b[24;3~"                  }
   - { key: NumpadEnter,                   chars: "\n"                          }
-  # tmux commands (split pane vertically, new window, close pane
+  # tmux commands (split pane vertically, split pane horizontally, new window, close pane)
   - { key: D,        mods: Command,       chars: "\x04"                        }
-  - { key: D,        mods: Command|Shift, chars: "\""                          }
+  - { key: D,        mods: Command|Shift, chars: "\x01\x22"                    }
   - { key: T,        mods: Command,       chars: "\x14"                        }
   - { key: W,        mods: Command,       chars: "\x18"                        }
+  - { key: K,        mods: Command,       chars: "\x0b"                        }
+    # TODO: doesn't work yet. tmux commands to jump to specific tabs
+  - { key: Key1,  mods: Command,       chars: "\x06\x31" }
+  - { key: Key2,  mods: Command,       chars: "\x06\x32" }
+  - { key: Key3,  mods: Command,       chars: "\x06\x33" }
+  - { key: Key4,  mods: Command,       chars: "\x06\x34" }
+  - { key: Key5,  mods: Command,       chars: "\x06\x35" }
+  - { key: Key6,  mods: Command,       chars: "\x06\x36" }
+  - { key: Key7,  mods: Command,       chars: "\x06\x37" }
+  - { key: Key8,  mods: Command,       chars: "\x06\x38" }
+  - { key: Key9,  mods: Command,       chars: "\x06\x39" }
