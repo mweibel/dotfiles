@@ -11,6 +11,9 @@ git submodule update --init
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+mkdir -p ~/.tmux/plugins
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # install dotfiles
 for symlink in bashrc gitconfig gitignore slate vimrc zshrc merge-po-files vim direnvrc alacritty.yml tmux.conf
 do
