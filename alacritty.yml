@@ -50,20 +50,6 @@ scrolling:
   # To disable this completely, set `faux_multiplier` to 0.
   multiplier: 3
 
-  # Automatically scroll to the bottom when new text is written
-  # to the terminal.
-  auto_scroll: false
-
-# Spaces per Tab
-#
-# This setting defines the width of a tab in cells. Changes to this
-# value require a restart to take effect.
-#
-# Some applications, like Emacs, rely on knowing about the width of a tab.
-# To prevent unexpected behavior in these applications, it's also required to
-# change the `it` value in terminfo when altering this setting.
-tabspaces: 8
-
 # When true, bold text is drawn using the bright variant of colors.
 draw_bold_text_with_bright_colors: true
 
@@ -166,8 +152,33 @@ schemes:
       magenta: '0xbf74d2'
       cyan:    '0x6caeff'
       white:   '0xf2f2f2'
+light: &light
+  # Default Colors
+  primary:
+    background: '#f1f1f1'
+    foreground: '#424242'
+  # Normal colors
+  normal:
+    black:   '#212121'
+    red:     '#c30771'
+    green:   '#10a778'
+    yellow:  '#a89c14'
+    blue:    '#008ec4'
+    magenta: '#523c79'
+    cyan:    '#20a5ba'
+    white:   '#e0e0e0'
+  # Bright colors
+  bright:
+    black:   '#212121'
+    red:     '#fb007a'
+    green:   '#5fd7af'
+    yellow:  '#f3e430'
+    blue:    '#20bbfc'
+    magenta: '#6855de'
+    cyan:    '#4fb8cc'
+    white:   '#f1f1f1'
 
-colors: *flare
+colors: *ps
 
 # Visual Bell
 #
