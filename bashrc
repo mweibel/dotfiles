@@ -1,7 +1,7 @@
 export LC_ALL=en_US.UTF-8
 
 # PATH changes
-export PATH=~/.bin:/usr/local/homebrew/bin:/usr/local/homebrew/sbin:$PATH
+export PATH=~/.bin:$PATH
 # EDITOR: vim
 export EDITOR=/usr/bin/vim
 export HOMEBREW_EDITOR=`/usr/bin/which subl`
@@ -15,7 +15,7 @@ if [ -f ~/.bashrc_local ]; then
 	source ~/.bashrc_local
 fi
 
-NODE_PATH=$NODE_PATH:/usr/local/homebrew/lib/node_modules
+NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
 
 PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 

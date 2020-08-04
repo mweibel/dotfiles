@@ -29,6 +29,9 @@ ln -s $PWD/gpg.conf ~/.gnupg/gpg.conf
 echo "Installing packages"
 brew bundle
 
+# compile diff-highlight
+make -C $(brew --prefix git)/share/git-core/contrib/diff-highlight
+
 # install oh-my-zsh
 echo "Installing oh-my-zsh"
 git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
