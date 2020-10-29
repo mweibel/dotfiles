@@ -9,3 +9,7 @@
 .envrc
 .direnv
 .phpstorm_helpers
+.classpath
+.factorypath
+.project
+.settings

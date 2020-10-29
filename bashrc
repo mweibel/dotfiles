@@ -23,3 +23,6 @@ alias k="kubectl"
 
 # added by travis gem
 [ -f /Users/michael/.travis/travis.sh ] && source /Users/michael/.travis/travis.sh
+
+export NODE_VERSIONS=$HOME/.nvm/versions/node
+export NODE_VERSION_PREFIX=node-v
