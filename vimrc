@@ -1,9 +1,6 @@
 " Remap leader
 let mapleader = ','
 
-" pathogen
-call pathogen#infect()
-
 syntax on
 
 " show cmd currently typed in

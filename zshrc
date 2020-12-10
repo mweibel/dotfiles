@@ -41,7 +41,5 @@ if [ -f ~/.bashrc ]; then
 	source ~/.bashrc
 fi
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 eval "$(direnv hook zsh)"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
