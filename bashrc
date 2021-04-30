@@ -20,6 +20,7 @@ NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
 PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 
 alias k="kubectl"
+alias kd="kubectl --context=helio-dev"
 
 # added by travis gem
 [ -f /Users/michael/.travis/travis.sh ] && source /Users/michael/.travis/travis.sh

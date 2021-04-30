@@ -154,31 +154,31 @@ schemes:
       magenta: '0xbf74d2'
       cyan:    '0x6caeff'
       white:   '0xf2f2f2'
-light: &light
-  # Default Colors
-  primary:
-    background: '#f1f1f1'
-    foreground: '#424242'
-  # Normal colors
-  normal:
-    black:   '#212121'
-    red:     '#c30771'
-    green:   '#10a778'
-    yellow:  '#a89c14'
-    blue:    '#008ec4'
-    magenta: '#523c79'
-    cyan:    '#20a5ba'
-    white:   '#e0e0e0'
-  # Bright colors
-  bright:
-    black:   '#212121'
-    red:     '#fb007a'
-    green:   '#5fd7af'
-    yellow:  '#f3e430'
-    blue:    '#20bbfc'
-    magenta: '#6855de'
-    cyan:    '#4fb8cc'
-    white:   '#f1f1f1'
+  light: &light
+    # Default Colors
+    primary:
+      background: '#f1f1f1'
+      foreground: '#424242'
+    # Normal colors
+    normal:
+      black:   '#212121'
+      red:     '#c30771'
+      green:   '#10a778'
+      yellow:  '#a89c14'
+      blue:    '#008ec4'
+      magenta: '#523c79'
+      cyan:    '#20a5ba'
+      white:   '#e0e0e0'
+    # Bright colors
+    bright:
+      black:   '#212121'
+      red:     '#fb007a'
+      green:   '#5fd7af'
+      yellow:  '#f3e430'
+      blue:    '#20bbfc'
+      magenta: '#6855de'
+      cyan:    '#4fb8cc'
+      white:   '#f1f1f1'
 
 colors: *ps
 
@@ -430,7 +430,7 @@ key_bindings:
   - { key: NumpadEnter,                   chars: "\n"                          }
   # tmux commands (split pane vertically, split pane horizontally, new window, close pane)
   - { key: D,        mods: Command,       chars: "\x04"                        }
-  - { key: D,        mods: Command|Shift, chars: "\x01\x22"                    }
+  - { key: D,        mods: Command|Shift, chars: "\x01\x22"                        }
   - { key: T,        mods: Command,       chars: "\x14"                        }
   - { key: W,        mods: Command,       chars: "\x18"                        }
   - { key: K,        mods: Command,       chars: "\x0b"                        }
