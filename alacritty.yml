@@ -240,9 +240,19 @@ mouse:
   double_click: { threshold: 300 }
   triple_click: { threshold: 300 }
 
-  url:
-    launcher: open
-    modifiers: Control
+  #url:
+  #  launcher: open
+  #  modifiers: Control
+
+hints:
+  enabled:
+    - regex: "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)\
+             [^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+      command: open
+      post_processing: true
+      mouse:
+        enabled: true
+        mods: Control
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"
