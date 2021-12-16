@@ -1,8 +1,5 @@
 # Use `brew bundle`  to install the packages
 
-# Java first for some reason
-cask "java" unless system "/usr/libexec/java_home --failfast"
-
 brew "git"
 brew "ag"
 brew "tmux"
@@ -12,12 +9,13 @@ brew "wget"
 brew "direnv"
 brew "gpg"
 brew "go"
+brew "kube-ps1"
 
 # Apps
 cask "spectacle"
-cask "keybase"
 cask "iterm2"
 cask "sublime-text"
+
 cask "visual-studio-code"
 cask "intellij-idea"
 cask "dropbox"
