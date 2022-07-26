@@ -6,7 +6,8 @@ export PATH=~/.bin:$PATH
 export EDITOR=/usr/bin/vim
 export HOMEBREW_EDITOR=`/usr/bin/which subl`
 
-export GOROOT=`brew --prefix go`/libexec
+#export GOROOT=`brew --prefix go`/libexec
+export GOROOT=/home/linuxbrew/.linuxbrew/opt/go/libexec
 
 GPG_TTY=$(tty)
 export GPG_TTY
@@ -27,3 +28,7 @@ alias kd="kubectl --context=helio-dev"
 
 export NODE_VERSIONS=$HOME/.nvm/versions/node
 export NODE_VERSION_PREFIX=node-v
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

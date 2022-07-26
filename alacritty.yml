@@ -16,6 +16,8 @@ env:
 window:
   dynamic_title: true
 
+  opacity: 1.0
+
   # Window dimensions in character acolumns and lines
   # (changes require restart)
   #dimensions:
@@ -251,6 +253,7 @@ hints:
       mouse:
         enabled: true
         mods: Control
+
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>"

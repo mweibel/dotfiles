@@ -41,7 +41,8 @@ set backspace=indent,eol,start
 
 set autoread " if a file has been changed outside of vim and it has not been changed, automatically re-read it
 
-set laststatus=2
+" commented as on linux doesnt work
+" set laststatus=2
 set title
 set statusline+=%#warningmsg#
 set statusline+=%*

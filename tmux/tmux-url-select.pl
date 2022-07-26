@@ -9,7 +9,7 @@ use warnings;
 
 ### config
 
-use constant COMMAND => 'open %s';
+use constant COMMAND => 'xdg-open %s';
 use constant YANK_COMMAND => 'echo %s | pbcopy';
 
 use constant SHOW_STATUS_BAR => 1;
