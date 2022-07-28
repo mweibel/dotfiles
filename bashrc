@@ -1,7 +1,7 @@
 export LC_ALL=en_US.UTF-8
 
 # PATH changes
-export PATH=~/.bin:$PATH
+export PATH=~/.bin:/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:$PATH
 # EDITOR: vim
 export EDITOR=/usr/bin/vim
 export HOMEBREW_EDITOR=`/usr/bin/which subl`
