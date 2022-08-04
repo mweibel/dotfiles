@@ -28,9 +28,7 @@ setopt INTERACTIVE_COMMENTS
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git macos colored-man-pages kubectl gcloud)
-
-source $ZSH/oh-my-zsh.sh
+plugins=(git colored-man-pages kubectl gcloud)
 
 # Customize to your needs...
 export LSCOLORS='ExFxCxDxbxegedabagacad'
@@ -44,9 +42,13 @@ fi
 eval "$(direnv hook zsh)"
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
+source $ZSH/oh-my-zsh.sh
+
+PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
 source "$(brew --prefix)/opt/kube-ps1/share/kube-ps1.sh"
 PS1='$(kube_ps1) '$PS1
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
+. "$(brew --prefix)/opt/asdf/libexec/asdf.sh"
+
