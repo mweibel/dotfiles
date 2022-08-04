@@ -6,8 +6,8 @@ export PATH=~/.bin:/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-s
 export EDITOR=/usr/bin/vim
 export HOMEBREW_EDITOR=`/usr/bin/which subl`
 
-#export GOROOT=`brew --prefix go`/libexec
-export GOROOT=/home/linuxbrew/.linuxbrew/opt/go/libexec
+export GOROOT=`brew --prefix go`/libexec
+#export GOROOT=/home/linuxbrew/.linuxbrew/opt/go/libexec
 
 GPG_TTY=$(tty)
 export GPG_TTY
