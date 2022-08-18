@@ -17,3 +17,5 @@ if [ -f ~/.bashrc_local ]; then
 fi
 
 NODE_PATH=$NODE_PATH:/usr/local/lib/node_modules
+
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
