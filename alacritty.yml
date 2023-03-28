@@ -230,7 +230,7 @@ mouse_bindings:
   - { mouse: Middle, action: PasteSelection }
 
 mouse:
-  hide_when_typing: true
+  #hide_when_typing: true
 
   # Click settings
   #
