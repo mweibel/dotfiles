@@ -45,3 +45,5 @@
 	textconv = sops -d
 [pager]
 	branch = false
+[diff]
+	submodule = log
