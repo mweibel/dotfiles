@@ -29,7 +29,7 @@ setopt INTERACTIVE_COMMENTS
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git colored-man-pages kubectl gcloud)
+plugins=(git colored-man-pages kubectl gcloud docker)
 
 # Customize to your needs...
 export LSCOLORS='ExFxCxDxbxegedabagacad'
