@@ -15,7 +15,7 @@ mkdir -p ~/.tmux/plugins
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # install dotfiles
-for symlink in bashrc gitconfig gitignore slate vimrc zshrc merge-po-files vim direnvrc alacritty.yml tmux.conf
+for symlink in bashrc gitconfig gitignore vimrc zshrc merge-po-files vim direnvrc alacritty.toml tmux.conf
 do
 	echo "Linking $symlink"
 	rm ~/.$symlink

@@ -1,12 +1,11 @@
 export LC_ALL=en_US.UTF-8
 
 # PATH changes
-export PATH=~/.bin:/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:$PATH
+# export PATH=${KREW_ROOT:-$HOME/.krew}/bin:~/.bin:/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin:$PATH
 # EDITOR: vim
 export EDITOR=/usr/bin/vim
-export HOMEBREW_EDITOR=`/usr/bin/which subl`
 
-export GOROOT=`brew --prefix go`/libexec
+#export GOROOT=`brew --prefix go`/libexec
 #export GOROOT=/home/linuxbrew/.linuxbrew/opt/go/libexec
 
 GPG_TTY=$(tty)
