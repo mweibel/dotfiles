@@ -1,7 +1,6 @@
 [user]
 	name = Michael Weibel
 	useConfigOnly = true
-	signingkey = B0BEEAD5000B0DF2
 [color]
 	ui = true
 [alias]

@@ -12,17 +12,11 @@ brew "go"
 brew "kube-ps1"
 
 # Apps
-cask "spectacle"
-cask "iterm2"
-cask "sublime-text"
 
-cask "visual-studio-code"
-cask "intellij-idea"
-cask "dropbox"
-cask "gpg-suite"
+#cask "visual-studio-code"
+#cask "intellij-idea"
 cask "docker"
 cask "spotify"
-cask "alacritty"
 
 # Quick Look plugins
 cask 'qlcolorcode'

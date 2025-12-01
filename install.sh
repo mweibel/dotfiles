@@ -24,7 +24,7 @@ done
 
 # install homebrew packages
 # echo "Installing packages"
-# brew bundle
+brew bundle
 
 # compile diff-highlight
 make -C $(brew --prefix git)/share/git-core/contrib/diff-highlight
@@ -44,6 +44,6 @@ chsh -s /bin/zsh
 
 # ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
-# ./macos
+./macos
 
 echo "Done installing"
