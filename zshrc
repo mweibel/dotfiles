@@ -45,9 +45,11 @@ fpath+=${ZDOTDIR:-~}/.zsh_functions
 
 source $ZSH/oh-my-zsh.sh
 
-PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
-source "$(brew --prefix)/opt/kube-ps1/share/kube-ps1.sh"
-PS1='$(kube_ps1) '$PS1
+#PROMPT='%{$fg_bold[blue]%}%2~%{$reset_color%} $(my_git_prompt_info)%{$reset_color%}%B»%b '
+#source "$(brew --prefix)/opt/kube-ps1/share/kube-ps1.sh"
+#PS1='$(kube_ps1) '$PS1
+#
+eval "$(starship init zsh)"
 
 # [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

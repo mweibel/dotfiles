@@ -10,6 +10,7 @@ brew "direnv"
 brew "gpg"
 brew "go"
 brew "kube-ps1"
+brew "starship"
 
 # Apps
 
