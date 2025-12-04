@@ -1,0 +1,183 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+right_format = """$cmd_duration$status$sudo"""
+
+[line_break]
+disabled = true
+
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+read_only = ''
+
+[character]
+success_symbol = '[❯](bold black)'
+error_symbol = '[❯](bold black)'
+
+[status]
+disabled = false
+symbol = '↵ '
+
+[sudo]
+disabled = false
+format = '[＄](red bold)'
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style) '
+symbol = ''
+style = 'bold yellow'
+
+[git_status]
+format = '([$all_status$ahead_behind]($style)) '
+stashed = ''
+modified = '🞱'
+diverged = '‼'
+deleted = '×'
+
+[python]
+disabled = false
+format = '[(\($virtualenv\) )]($style)'
+style = "yellow bold"
+
+[cmd_duration]
+disabled = false
+
+[username]
+disabled = true
+[hostname]
+disabled = true
+[localip]
+disabled = true
+[shlvl]
+disabled = true
+[singularity]
+disabled = true
+[kubernetes]
+disabled = true
+[vcsh]
+disabled = true
+[fossil_branch]
+disabled = true
+[hg_branch]
+disabled = true
+[pijul_channel]
+disabled = true
+[docker_context]
+disabled = true
+[package]
+disabled = true
+[c]
+disabled = true
+[cmake]
+disabled = true
+[cobol]
+disabled = true
+[daml]
+disabled = true
+[dart]
+disabled = true
+[deno]
+disabled = true
+[dotnet]
+disabled = true
+[elixir]
+disabled = true
+[elm]
+disabled = true
+[erlang]
+disabled = true
+[fennel]
+disabled = true
+[golang]
+disabled = true
+[guix_shell]
+disabled = true
+[haskell]
+disabled = true
+[haxe]
+disabled = true
+[helm]
+disabled = true
+[java]
+disabled = true
+[julia]
+disabled = true
+[kotlin]
+disabled = true
+[gradle]
+disabled = true
+[lua]
+disabled = true
+[nim]
+disabled = true
+[nodejs]
+disabled = true
+[ocaml]
+disabled = true
+[opa]
+disabled = true
+[perl]
+disabled = true
+[php]
+disabled = true
+[pulumi]
+disabled = true
+[purescript]
+disabled = true
+[raku]
+disabled = true
+[rlang]
+disabled = true
+[red]
+disabled = true
+[ruby]
+disabled = true
+[rust]
+disabled = true
+[scala]
+disabled = true
+[solidity]
+disabled = true
+[swift]
+disabled = true
+[terraform]
+disabled = true
+[vlang]
+disabled = true
+[vagrant]
+disabled = true
+[zig]
+disabled = true
+[buf]
+disabled = true
+[nix_shell]
+disabled = true
+[conda]
+disabled = true
+[meson]
+disabled = true
+[spack]
+disabled = true
+[memory_usage]
+disabled = true
+[aws]
+disabled = true
+[gcloud]
+disabled = true
+[openstack]
+disabled = true
+[azure]
+disabled = true
+[crystal]
+disabled = true
+[battery]
+disabled = true
+[time]
+disabled = true
+[os]
+disabled = true
+[container]
+disabled = true
+[shell]
+disabled = true

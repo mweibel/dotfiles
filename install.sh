@@ -22,6 +22,15 @@ do
 	ln -s $PWD/$symlink ~/.$symlink
 done
 
+echo "Installing .config files..."
+mkdir -p ~/.config
+for symlink in starship.toml
+do
+  echo " symlink ~/.config/$symlink"
+	rm ~/.config/$symlink
+	ln -s $PWD/$symlink ~/.config/$symlink
+done
+
 # install homebrew packages
 # echo "Installing packages"
 brew bundle
