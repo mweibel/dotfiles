@@ -3,12 +3,9 @@
 *.pow
 *.paw
 .vscode
-.ackrc
-*-soapui-*.xml
 .DS_Store
 .envrc
 .direnv
-.phpstorm_helpers
 .classpath
 .factorypath
 .project

@@ -24,16 +24,10 @@
 	default = current
 [merge]
 	tool = opendiff
-[merge "merge-po-files"]
-	name = merge po-files driver
-	driver = ~/.merge-po-files %A %O %B
-	recursive = binary
-[diff "po"]
-	textconv=msgcat --no-location --no-wrap --sort-output
-#[credential]
-#	helper = osxkeychain
-[commit]
-	gpgsign = true
+; #[credential]
+; #	helper = osxkeychain
+; [commit]
+; 	gpgsign = true
 [fetch]
 	prune = true
 [include]
