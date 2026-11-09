@@ -31,6 +31,11 @@ do
 	ln -s $PWD/$symlink ~/.config/$symlink
 done
 
+echo " symlink ~/.config/ghostty/config"
+mkdir -p ~/.config/ghostty
+rm -f ~/.config/ghostty/config
+ln -s $PWD/ghostty.config ~/.config/ghostty/config
+
 # install homebrew packages
 # echo "Installing packages"
 brew bundle
